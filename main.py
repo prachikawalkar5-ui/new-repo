@@ -1,7 +1,10 @@
-def hello();
-    print("hi")
+public class Add {
+    public static void main(String[] args) {
+        int num1 = 10;
+        int num2 = 20;
 
-def bye();
-    print("bye")
+        int sum = num1 + num2;
 
-print(hello())
+        System.out.println("Sum of two numbers: " + sum);
+    }
+}
