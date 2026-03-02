@@ -4,9 +4,11 @@ public class Add {
         int num2 = 20;
 
         int sum = num1 + num2;
+        int mul = num1 * num2;
    
 
         System.out.println("Sum of two numbers: " + sum);
+         System.out.println("Multiplication of two numbers: " + mul);
          
     }
 }
